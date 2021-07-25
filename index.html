@@ -5,35 +5,42 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/29fd9dc2c7.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Pokedex | Pokemon.com</title>
+      <title>Pokédex | Pokémon.com</title>
 </head>
 <body>
       <header>
            <nav id="navbar">
-                 <div class="container">
-                  <ul>
-                        <li><a href="#" class="current">Home</a></li>
-                        <li><a href="#">Pokedex</a></li>
-                        <li><a href="#">Video Games & Apps</a></li>
-                        <li><a href="#">Trading Card Games</a></li>
-                        <li><a href="#">Pokemon TV</a></li>
-                        <li><a href="#">Play! Pokemon Events</a></li>
-                        <li><a href="#">News</a></li>
-                    </ul>
+                 <div>
+                        <ul>
+                              <li class="nav1"><a  href="#" class="current">Home</a></li>
+                              <li class="nav2"><a  href="#">Pokédex</a></li>
+                              <li class="nav3"><a  href="#">Video Games &</br> Apps</a></li>
+                              <li class="nav4"><a href="#">Trading Card Games</a></li>
+                              <li class="nav5"><a href="#">Pokemon TV</a></li>
+                              <li class="nav6"><a href="#">Play! Pokémon</br> Events</a></li>
+                              <li class="nav7"><a href="#">News</a></li>
+                        </ul>
                  </div>
            </nav>
       </header>
       <section class="heading">
-            <h1>Pokemon</h1>
+            <p>Pokémon</p>
       </section>
-      <section class="MySearchBar">
-            <p>Name or Number</p>
-            <!-- <input type="text" placeholder="Search.."> -->
-            <form class="SearchB" action="/action_page.php" style="margin:auto;max-width:300px">
-                  <input type="text" placeholder="Search.." name="search2">
-                  <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-      </section>
+      <div class="container">
+            <section class="MySearchBar">
+                  <p>Name or Number</p>
+                  <div class="box">
+                  <form class="SearchB" action="/action_page.php">
+                        <input type="text" placeholder="" name="search2" style="max-width:200px">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  </div>
+                  <p>
+                        Use the Advanced Search to explore Pokémon by type, weakness, Ability, and more! 
+                  </p>
+            </section>
+      </div>
 </body>
 </html>

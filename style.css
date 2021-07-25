@@ -1,37 +1,164 @@
 * {
-      box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
     }
+
+/*Main Styling*/
+html, body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+  color: rgb(73, 69, 69);
+  text-decoration: none;
+}
+
+/*NavBar*/
+#navbar{
+  background: #fff;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a{
+  color: rgb(73, 69, 69);
+}
+
+#navbar .logo{
+  /* padding-top: 10px; */
+}
+
+#navbar ul{
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li{
+  display: inline-block;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.nav1:hover, #navbar ul li a.current {
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}
+
+.nav2:hover{
+  background-color: #da5e0b;
+  color: #fff;
+}
+
+.nav3:hover {
+  background-color: #f37e3b;
+  color: #fff;
+}
+
+.nav4:hover {
+  background-color: rgb(245, 230, 24);
+  color: #fff;
+}
+
+.nav5:hover {
+  background-color: rgb(42, 180, 65);
+  color: #fff;
+}
+
+.nav6:hover {
+  background-color: rgb(5, 180, 192);
+  color: #fff;
+}
+
+.nav7:hover {
+  background-color: rgb(13, 16, 206);
+  color: #fff;
+}
+
+/* #navbar ul li a:hover, #navbar ul li a.current{
+  background: #444;
+  color: #fff;
+} */
+
+
+/*Haeding*/
+.heading{
+  color: rgb(100, 100, 100);
+  margin: 0 145px;
+  padding: 10px;
+}
+
+.heading p{
+  font-size: 40px;
+  padding: 20px;
+}
+
+
     
-    /* Style the search field */
-    form.SearchB input[type=text] {
-      padding: 10px;
-      font-size: 17px;
-      border: 1px solid grey;
-      float: left;
-      width: 80%;
-      background: #f1f1f1;
-    }
+/* Style the search field */
+.MySearchBar {
+  
+}
+
+form.SearchB input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 3px solid grey;
+  border-radius: 5% 5% 5% 5%;
+  float: left;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+.box {
+  width: 80%;
+  height: 20%;
+}
+
+/*Section Two of the webpage*/
+.container {
+  background: #333;
+  padding: 50px;
+}
     
-    /* Style the submit button */
-    form.SearchB button {
-      float: left;
-      width: 20%;
-      padding: 10px;
-      background: #f37e3b;
-      color: white;
-      font-size: 17px;
-      border: 1px solid grey;
-      border-left: none; /* Prevent double borders */
-      cursor: pointer;
-    }
+/* Style the submit button */
+form.SearchB button {
+  width: 5%; 
+  height: 50%;
+  padding: 10px;
+  background: #f37e3b;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 5% 5% 5% 5%;
+}
     
-    form.SearchB button:hover {
-      background: #da5e0b;
-    }
+form.SearchB button:hover {
+  background: #da5e0b;
+}
     
-    /* Clear floats */
-    form.SearchB::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+/* Clear floats */
+form.SearchB::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Heading of search button*/
+.MySearchBar{
+  margin: 0 135px;
+}
+
+.MySearchBar p {
+  font-size: 30px;
+  color: #fff;
+}
+
+
