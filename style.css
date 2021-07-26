@@ -7,7 +7,7 @@
 /*Main Styling*/
 html, body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7em;
+  /* line-height: 1.7em; */
 }
 
 a{
@@ -17,8 +17,14 @@ a{
 
 /*NavBar*/
 #navbar{
+  /* width: 100%;
+  height: 75px; */
   background: #fff;
   color: #fff;
+  /* line-height: 75px; */
+  padding: 0px 100px;
+  /* position: fixed;
+  z-index: 1; */
   overflow: auto;
 }
 
@@ -26,27 +32,25 @@ a{
   color: rgb(73, 69, 69);
 }
 
-#navbar .logo{
-  /* padding-top: 10px; */
-}
-
 #navbar ul{
-  list-style: none;
+  /* float: right ; */
+  /* list-style: none;*/
   text-align: center;
 }
 
 #navbar ul li{
   display: inline-block;
+  list-style: none;
 }
 
 #navbar ul li a{
-  display: block;
-  padding: 30px 20px;
+  display: inline-block;
+  padding: 32px 20px;
   text-align: center;
 }
 
 .nav1:hover, #navbar ul li a.current {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(124, 124, 124);
   color: #fff;
 }
 
@@ -88,13 +92,14 @@ a{
 
 /*Haeding*/
 .heading{
-  color: rgb(100, 100, 100);
+  color: rgb(124, 124, 124);
+  background-color: #fdfdfd;
   margin: 0 145px;
   padding: 10px;
 }
 
 .heading p{
-  font-size: 40px;
+  font-size: 30px;
   padding: 20px;
 }
 
